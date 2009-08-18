@@ -25,7 +25,7 @@ void help(const char *prog)
             "  -0 <stdin>      redirect stdin to <stdin>, possible formats:\n\n"
             "                   - :[user,group,mode]/foo/bar -- redirect to /foo/bar, chown to user:group and chmod mode\n\n"
             "                   - @[user,group,mode]/foo/bar -- redirect to UNIX domain socket /foo/bar\n\n"
-            "                   - 127.0.0.1:666 -- listen at 127.0.0.1 and port 666 (IPv6 /e.g. [::1]:666) is supported\n\n"
+            "                   - 127.0.0.1:666 -- listen at 127.0.0.1 and port 666 (IPv6 /e.g. [::1]:666/ is supported)\n\n"
             "  -1 <stdout>     redurect stdout to <stdout>, same possible formats as for -0\n"
             "  -2 <stderr>     redurect stderr to <stderr>, same possible formats as for -0\n"
     );
